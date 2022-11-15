@@ -22,5 +22,5 @@ func main() {
 	router := gin.Default()
 	router.GET("/", getMain)
 	router.POST("/echo", postMain)
-	router.Run("0.0.0.0:8081")
+	router.Run()
 }
